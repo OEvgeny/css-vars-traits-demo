@@ -1,5 +1,10 @@
-# Versatile File Input Styling with CSS Variables
+# Versatile Component Styling with CSS Variables
 
-In this demo utilizes CSS variables are to manipulate the look and feel of an HTML file input element. The primary feature explored is CSS variables used in tandem with class selectors to create a rich array of styles. The base class, file-input, sets the foundation for every CSS variation. Once this base is set, additional _-var classes such as color-var, ghost-var, and border-var introduce unique traits for more customized use of the file inputs. These _-var classes introduce CSS variables that are then filled with desired values.
 
-Various modifier classes, including primary, accent, semi, and thick, are demonstrated. primary and accent add distinctive colors to the file input when combined with the color-var class. semi and thick, demonstrate the versatility of border-var ghost-var by modifying border styles and the opacity of the file input. The emphasis of this demo is to showcase the power and flexibility provided by CSS variables. With a relatively small set of defined variables and classes, a significant variety of UI components can be created.
+This is my take on using CSS variables to create versatile styling for web components. It uses three types of classes:
+
+- `file-input`: a component class that defines the basic structure and functionality of a file input element.
+
+- `*-var`: a trait class that provides variables with optional defaults along with necessary modifications for the css properties, such as colors, fonts, borders, etc.
+
+- `primary, accent, thick ...`: modifier classes that change the values of the variables provided by the trait class, allowing for different variations of the component
